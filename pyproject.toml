@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sprawozdanie"
+version = "3.11.2"
+description = "Bazy Danych"
+authors = ["Kamil Pawelski <263795@student.pwr.edu.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.2"
+pakietdemo = {git = "https://git@github.com/piotrczaja/pakiet-demo.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
